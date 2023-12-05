@@ -66,7 +66,7 @@ export default function Puzzle() {
         <>
             <div
                 ref={ref}
-                className={"aspect-image max-h-[80vh]"}
+                className={"aspect-image h-[66vh]"}
             >
                 {!!dimensions && (
                     <>

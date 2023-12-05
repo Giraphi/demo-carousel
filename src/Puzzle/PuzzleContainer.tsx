@@ -35,7 +35,7 @@ export default function PuzzleContainer(props: PuzzleContainerProps) {
                     muted={muted}
                     mod={getRandomMod()}
                 >
-                    <div className={"h-[66vh] w-full"}>
+                    <div className={"h-full w-full"}>
                         <img
                             className={"object-cover h-full w-full"}
                             src={image}
