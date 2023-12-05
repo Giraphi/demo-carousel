@@ -2,9 +2,9 @@ import React from "react";
 
 import { useEffect, useRef, useState } from "react";
 
-import brutal1 from "./images/brutal1.jpg";
-import brutal2 from "./images/brutal2.jpg";
-import brutal3 from "./images/brutal3.jpg";
+import brutal1 from "../images/brutal1.jpg";
+import brutal2 from "../images/brutal2.jpg";
+import brutal3 from "../images/brutal3.jpg";
 import PuzzleContainer from "./PuzzleContainer";
 
 export type PuzzleDimensions = { width: number; height: number };

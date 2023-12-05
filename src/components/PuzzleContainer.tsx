@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 
-
 import React from "react";
 import { PuzzleDimensions } from "./Puzzle";
-import { Mod } from "./useClipPathConfig";
+import { Mod } from "../hooks/useClipPathConfig";
 import PuzzleAnimation from "./PuzzleAnimation";
 
 export interface PuzzleContainerProps {
@@ -37,7 +36,7 @@ export default function PuzzleContainer(props: PuzzleContainerProps) {
                 >
                     <div className={"h-full w-full"}>
                         <img
-                            className={"object-cover h-full w-full"}
+                            className={"h-full w-full object-cover"}
                             src={image}
                             alt={"demo image"}
                         />

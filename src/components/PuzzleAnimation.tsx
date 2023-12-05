@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { ReactNode } from "react";
-import useClipPathConfig, { AnimationClipPathConfig, Mod } from "./useClipPathConfig";
+import useClipPathConfig, { AnimationClipPathConfig, Mod } from "../hooks/useClipPathConfig";
 import { PuzzleDimensions } from "./Puzzle";
 import PuzzleAnimationRect from "./PuzzleAnimationRect";
 import React from "react";

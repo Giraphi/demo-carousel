@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { PuzzleDimensions } from "./Puzzle";
-import { RectConfig } from "./useClipPathConfig";
-
+import { RectConfig } from "../hooks/useClipPathConfig";
 
 export interface PuzzleAnimationRectProps {
     className?: string;

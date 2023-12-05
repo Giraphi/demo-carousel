@@ -1,8 +1,12 @@
 import React from "react";
-import Puzzle from "./Puzzle/Puzzle.tsx";
+import Puzzle from "./components/Puzzle.tsx";
 
 function App() {
-    return <div className="p-8 min-h-[100vh] bg-neutral-900"><Puzzle /></div>;
+    return (
+        <div className="min-h-[100vh] bg-neutral-900 p-8">
+            <Puzzle />
+        </div>
+    );
 }
 
 export default App;
