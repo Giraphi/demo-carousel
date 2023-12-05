@@ -78,11 +78,11 @@ export default function Puzzle() {
                             />
                             <div
                                 onClick={onLeftClick}
-                                className={"z-30 col-start-1 row-start-1 h-full hover:cursor-left-arrow"}
+                                className={"hover:cursor-left-arrow z-30 col-start-1 row-start-1 h-full"}
                             />
                             <div
                                 onClick={onRightClick}
-                                className={"z-30 col-start-2 row-start-1 h-full hover:cursor-right-arrow"}
+                                className={"hover:cursor-right-arrow z-30 col-start-2 row-start-1 h-full"}
                             />
                         </div>
                     </>
