@@ -1,7 +1,7 @@
 # Demo: Puzzle Image Carousel
 
 -   Run with `npm run dev`
--   Stack: vite, react, tailwind
+-   Stack: vite + react.
 
 ## Design Idea
 
